@@ -19,6 +19,7 @@
         }
         #quote-box{height:100%;
         display: flex;
+	flex-direction:column;
         align-items: center;
         justify-content: center;
         }
@@ -29,6 +30,7 @@
 #new-quote{display: block;width: 50%;height: 30%;background-color: cadetblue;border: none; color: white;}
 .quotation{display: flex;align-items: center;}
 #tweet-quote{float: left;}
+	    #c{margin-top:5px;color:white}
     </style>
 </head>
 <body id="body">
@@ -41,6 +43,7 @@
         <div class="div2"><button id="new-quote" onclick="change(quotes)">Change Quote</button></div>
     </div>
 </div>
+	<p id="c">by Sandro Tsereteli</p>
 </div>
     <script>
         var quotes = [
